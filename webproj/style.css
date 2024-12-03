@@ -1,25 +1,2 @@
-
-#acorn {width:20%;}
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.container {
-  position: relative;
-}
-
-.topright {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-img { 
-  width: 100%;
-  height: auto;
-  opacity: 0.3;
-}
-</style>
-</head>
-<body> {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";} 
+body {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";} 
+#project1 {width:20%;}
