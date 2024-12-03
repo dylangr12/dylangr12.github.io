@@ -1,2 +1,20 @@
 body {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";} 
 #acorn {width:20%;}
+<style>
+.container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+</style>
