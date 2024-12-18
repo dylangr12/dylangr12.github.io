@@ -1,7 +1,11 @@
+:root {
+  --main-bg-color: #f1daf1;
+}
+
 body {
   padding: 20px;
   margin: 0;
-  background: #f1daf1;  
+  background: var(--main-bg-color);  
   font-family: "Times New Roman";
   display: flex;
   justify-content: center;
@@ -11,13 +15,11 @@ body {
   overflow: auto;
 }
 
-.acorn {
-  width: 50px;
-  height: 50px;
-  position: fixed; 
-  right: 20px; 
-  bottom: 20px;  
-  z-index: 1;  
+@media (max-width: 600px) {
+  .acorn {
+    left: 10px;
+    bottom: 10px;
+  }
 }
 
 a:link {
@@ -54,7 +56,7 @@ a:hover {
 }
 
 .content-item {
-  background-color: #f1daf1;
+  background-color: var(--main-bg-color);
   justify-content: center;
   align-items: center;
   display: flex;
