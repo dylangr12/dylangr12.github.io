@@ -2,6 +2,6 @@ body {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";}
 img {acorn1
   position: absolute; /* Or relative, depending on your layout */
   top: 50px; /* Adjust as needed */
-  left: 100px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
   width: 20px; /* Optional: Set the size of the image */
 }
