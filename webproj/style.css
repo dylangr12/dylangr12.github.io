@@ -7,21 +7,24 @@
 }
 
 .acorn{
-  width:30%;
+  width:10%;
+  position: fixed;
+  left: 20px;
+  z-index: 1;
 }
 
 
 a:link{
-  color:black;
+  color:blue;
 }
 a:visited{
-  color:red;
+  color:pink;
 }
 a:visited:hover{
   color:yellow;
 }
 a:hover{
-  color:green; 
+  color:black; 
 }
 
 #left_link{
