@@ -3,5 +3,5 @@ img {acorn1
   position: absolute; /* Or relative, depending on your layout */
   top: 50px; /* Adjust as needed */
   left: 100px; /* Adjust as needed */
-  width: 200px; /* Optional: Set the size of the image */
+  width: 20px; /* Optional: Set the size of the image */
 }
