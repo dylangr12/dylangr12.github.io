@@ -12,7 +12,8 @@ body {
 }
 
 .acorn {
-  width: 10%;  
+  width: 100px;
+  height: 100px;
   position: fixed; 
   left: 20px; 
   bottom: 20px;  
