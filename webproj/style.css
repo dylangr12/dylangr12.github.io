@@ -1,7 +1,7 @@
 body {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";}
 img {acorn1
-  position: absolute; /* Or relative, depending on your layout */
-  top: 50px; /* Adjust as needed */
-  left: 10px; /* Adjust as needed */
-  width: 20px; /* Optional: Set the size of the image */
+   position: fixed; /* Ensures it stays in place even when scrolling */
+  bottom: 0; /* Moves it to the bottom */
+  left: 0; /* Moves it to the left */
+  width: 20px; /* Optional: Adjust the size as needed */
 }
