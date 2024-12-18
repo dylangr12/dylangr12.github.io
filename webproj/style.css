@@ -45,7 +45,7 @@ a:hover{
  
 }
 .content-item{
-  background: f1daf1;
+  background-color: #f1daf1;
   justify-content: center;
   align-items:center;
   display:flex;
