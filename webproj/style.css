@@ -13,5 +13,7 @@ img {acorn1
   position: fixed;  
   bottom: 0;  
   left: 0;  
-  z-index: 1; /* Add this to ensure the image is on top of the body content */  
+   z-index: 1;  
+  width: 50px;  
+  height: 50px;  
 }
