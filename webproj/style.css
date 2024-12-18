@@ -1,64 +1,69 @@
-.citation{
-  font-size: .5em;
+body {
+  padding: 20px;
+  margin: 0;
+  background: #f1daf1;  
+  font-family: "Times New Roman";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  width: 100vw;
+  overflow: auto;
 }
 
-.citation_name{
-  font-family: 'Times New Roman';
+.acorn {
+  width: 10%;  
+  position: fixed; 
+  left: 20px; 
+  bottom: 20px;  
+  z-index: 1;  
 }
 
-.acorn{
-  width:10%;
-  position: fixed;
-  left: 20px;
-  z-index: 1;
+a:link {
+  color: blue;
+}
+a:visited {
+  color: pink;
+}
+a:visited:hover {
+  color: yellow;
+}
+a:hover {
+  color: black;
 }
 
-
-a:link{
-  color:blue;
-}
-a:visited{
-  color:pink;
-}
-a:visited:hover{
-  color:yellow;
-}
-a:hover{
-  color:black; 
+#left_link {
+  position: absolute;
+  left: 2%;
+  bottom: 68%;
+  z-index: 99;
 }
 
-#left_link{
-  position:absolute;
-  left:2%;
-  bottom:68%;
-  z-index:99;
-}
-#right_link{
+#right_link {
   position: relative;
-  left :25%;
-
+  left: 25%;
 }
 
-.container{
-  display:grid;
+.container {
+  display: grid;
   grid-template-columns: repeat(5, 3fr);
   gap: 10px 20px;
-  position:relative;
-  top:200px;
- 
-}
-.content-item{
-  background-color: #f1daf1;
-  justify-content: center;
-  align-items:center;
-  display:flex;
-  flex:1;
-  height:100px;
-}
-.content-image{
-  width:100%;
+  position: relative;
+  top: 200px;
 }
 
+.content-item {
+  background-color: #f1daf1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100px;
+}
+
+.content-image {
+  width: 100%;
+}
 
 
 
