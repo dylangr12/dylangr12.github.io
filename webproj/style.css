@@ -1,14 +1,14 @@
 body {  
-  padding: 0;  
+  padding: 20px;  
   margin: 0;  
   background: #f1daf1;  
   font-family: "Times New Roman";  
   display: flex;  
   justify-content: center;  
   align-items: center;  
-  height: 100vh;  
-  width: 100vw; /* add this line to set the width to 100% of the viewport */  
-  overflow: auto; /* add this line to allow scrolling if the content exceeds the viewport */  
+  height: 150vh;  
+  width: 100vw; 
+  overflow: auto; 
 }
   
 img {acorn1  
