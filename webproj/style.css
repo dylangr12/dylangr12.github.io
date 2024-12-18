@@ -1,6 +1,17 @@
-body {padding:0; margin:0; background: #f1daf1; font-family:"Times New Roman";}
-img {acorn1
-position: fixed;  
+body {  
+  padding: 0;  
+  margin: 0;  
+  background: #f1daf1;  
+  font-family: "Times New Roman";  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  height: 100vh;  
+}  
+  
+img {acorn1  
+  position: fixed;  
   bottom: 0;  
   left: 0;  
+  z-index: 1; /* Add this to ensure the image is on top of the body content */  
 }
