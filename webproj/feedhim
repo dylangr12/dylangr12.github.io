@@ -1,1 +1,16 @@
-
+<DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>
+        Immortality
+      </title>
+    </head>
+    <body>
+      Thank you so much. Mmm that was really good, here for your troubles. It's worthless to me being a squirrel and all.
+    </body>
+    <img src="money" width="500" alt="money"/>
+    <li><a href="index.html">Start Over?</a></li>
+  </body>
+</html>
+  </html>
